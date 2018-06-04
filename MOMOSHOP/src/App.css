@@ -1,0 +1,131 @@
+.theCardC{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.theCard{
+  height: 300px;
+  width: 200px;
+  border: 0.5px solid rgb(71, 114, 248);
+  border-radius: 15px;
+  margin: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+.objectsC1{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(71, 114, 248);
+  margin: 0;
+  padding-top: 3px;
+}
+.objectsC2{
+  height: 120px;
+  width: 100%;
+  padding-top: 5px;
+}
+.objectsC3{
+  height: 90px;
+  width: 100%;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+.objectsCI{
+  height: 100%;
+  width: 100%;
+}
+
+/* *----------------------------------* */
+
+.BoxContainer {
+  padding: 20px 20px 20px 20px;
+}
+
+.legendContactC {
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: underline;
+}
+
+.StylePol {
+  font-family: 'Kaushan Script', cursive;
+}
+
+#legendContact {
+  text-align: center;
+}
+
+.container-contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.Contact {
+  display: flex;
+  width: 55%;
+}
+
+.ContainerMap {
+  position: relative;
+  bottom: 22px;
+}
+
+.Mapping {
+  position: relative;
+  border-radius: 3px;
+  top: 20px;
+  width: 40vw;
+  height: 350px;
+  border: 2px solid rgba(71, 115, 248, 0.623);
+}
+
+.TextLorem {
+  background-color: rgba(71, 115, 248, 0.623);
+  padding: 5%;
+  margin-bottom: 5%;
+  margin-top: 7%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  height: auto;
+  width: 80%;
+  border-radius: 3px;
+  color: white;
+  height: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  /*For mobile phones: */
+  .container-contact {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .Contact {
+    justify-content: center;
+    align-content: center;
+    width: 92vw;
+    margin-bottom: 180px;
+  }
+  .div-iframe-contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .Mapping {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+  }
+  .legendContactC {
+    text-align: center;
+  }
+}
